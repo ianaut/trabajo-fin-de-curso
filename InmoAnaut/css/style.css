@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: "Montserrat";
+}
+
+header{
+    color: #fff;
+    background-color: #0a4661;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+}
+
+header h1{
+    font-size: 30px;
+}
+
+header p{
+    text-align: right;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav ul {
+    background: #6DDBD2;
+    list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+nav ul a:hover{
+    background-color: #63C7BF;
+}
+
+nav ul :active {
+    background-color: #4D9993;
+}
+
+nav ul>li a {
+    position: relative;
+}
+
+nav a {
+    color: black;
+    display: block;
+    font-size: 10px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: backgroun.5s;
+    border-right: 1px solid #319B8F;
+    text-decoration: none;
+}
+
+nav a:active{
+    color: white;
+}
+
+nav p {
+
+    color: black;
+}
+
+.imagenRegistro{
+    width: 200px;
+    height: 200px;
+}
+#container {
+    margin: 10px;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+}
+#container form {
+    
+    background: #fff;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#container form img {
+    margin: 15px auto;
+    text-align: center;
+    display: block;
+}
+
+#container form input {
+    width: 90%;
+    padding: 5px;
+    font-size: 16pt;
+    display: block;
+    margin: 25px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#container form input[type="submit"] {
+    background: #15DEFF;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+}
+
+#buscadorVivienda input {
+    background: #98D6EB;
+}
+
+#buscadorVivienda select {
+    background: #98D6EB;
+}
+
+#buscadorVivienda li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+.buscadorVivienda{
+    background-color: #42C8E6;
+    border-radius: 10px;
+    border: solid 5px white;
+    width: 1300px;
+    margin-top: 20px;
+}
+
+.botonBuscador {
+    background: #15DEFF;
+    margin-left: 10px;
+    color: black;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    border: black 1px solid;
+    border-radius: 5px;
+} 
+
+.numeroResultados{
+    margin: 20px;
+    font-weight: bold;
+}
+
+.resultados{
+    font-family: "arial";
+    color: black;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    border-collapse: collapse;
+    width: 85%;
+    margin: 10px;
+}
+.resultados th{
+    background-color: white;
+    padding: 10px;
+}
+
+.resultados tr {
+    background-color: white;
+    border-top: black 1px solid ; 
+    border-bottom:black 1px solid ;
+    padding: 5px;
+}
+
+.resultados tr:nth-child(odd){
+    background-color: #98D6EB;
+    border-top: 1px solid black;
+    padding: 5px;
+}
+
+.contacto{
+    margin: 10px;
+}
+
+.contacto h2{
+    padding: 10px;
+}
+
+.contacto p{
+    padding: 10px;
+}
+
+.imagenInicio{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    background-color: #ccc;
+}
+
+.center{
+    background-color: #E8F2F7;
+}
+
+.cartelInicio{
+    background: #42C8E6;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-size: auto;
+    width: 700px;
+}
+
+.botonInicio {
+    background: #54B4EB;
+    padding: 10px;
+    color: black;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.cartelInicio p{
+    font-style: italic;
+}
+
+.mismoEmail{
+    margin: 50px;
+    padding: 10px;
+    border: 5px double black;
+    border-radius: 5px;
+    text-align: center;
+    width: 700px;
+    background: #98D6EB;
+
+}
+
+.botonAtras{
+    background: #54B4EB;
+    padding: 10px;
+    color: black;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+footer{
+    background-color: #0a4661;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+footer h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
